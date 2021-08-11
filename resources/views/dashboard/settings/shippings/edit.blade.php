@@ -66,7 +66,7 @@
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="projectinput1"> قيمة التوصيل </label>
-                                                            <input type="text" value="" id="name"
+                                                            <input type="text" value="{{$shippingMethod -> plain_value}}" id="name"
                                                                    class="form-control"
                                                                    placeholder="  "
                                                                    name="plain_value">
